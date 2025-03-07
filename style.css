@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; 
+    width: 92%; 
 }
 
 .header_text h2 {
@@ -128,13 +128,13 @@ footer {
     .station .text-content {
         width: 60%;
         display: flex;
-        flex-direction: column; /* Stack text elements */
-        text-align: left; /* Align text to the left */
+        flex-direction: column; 
+        text-align: left; 
     }
 
     .station .text-content h2, 
     .station .text-content h5 {
-        margin-bottom: 10px; /* Add spacing between text */
+        margin-bottom: 10px; 
     }
 
     header {
