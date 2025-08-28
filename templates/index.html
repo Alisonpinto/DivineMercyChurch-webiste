@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Church Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- ====== Header ====== -->
+  <header class="fixed w-full bg-[brown] shadow-md z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-xl font-bold text-white">Divine Mercy Church Kalher</h1>
+      
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-6 font-medium text-white">
+        <a href="/templates/index.html" class="hover:text-blue-600">Home</a>
+        <a href="/templates/way_of_the_cross.html" class="hover:text-blue-600">Way of the Cross</a>
+        <a href="/templates/Novena.html" class="hover:text-blue-600">Novena</a>
+        <a href="#hymns" class="hover:text-blue-600">Hymns</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" class="md:hidden flex flex-col space-y-1 text-w">
+        <span class="w-6 h-0.5 bg-gray-700"></span>
+        <span class="w-6 h-0.5 bg-gray-700"></span>
+        <span class="w-6 h-0.5 bg-gray-700"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+      <nav class="flex flex-col p-4 space-y-2 font-medium">
+        <a href="/templates/index.html" class="hover:text-blue-600">Home</a>
+        <a href="/templates/way_of_the_cross.html" class="hover:text-blue-600">Way of the Cross</a>
+        <a href="/templates/Novena.html" class="hover:text-blue-600">Novena</a>
+        <a href="#hymns" class="hover:text-blue-600">Hymns</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- ====== Hero Section ====== -->
+<section class="h-screen">
+
+  <!-- ===== Mobile Hero (only visible on mobile) ===== -->
+  <div class="flex md:hidden h-full items-center justify-center 
+              bg-[url('https://i.pinimg.com/736x/09/b7/69/09b7693afb89cd04662ac2807cd31f6e.jpg')] 
+              bg-cover bg-center relative">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 text-center text-white max-w-2xl p-6">
+      <h2 class="text-4xl font-bold mb-4">Welcome to Divine Mercy Church Kalher</h2>
+      <p class="text-lg mb-6">Join us in prayer, reflection, and hymns of faith.</p>
+      <a href="#novena" 
+         class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition">
+         Join the Novena
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== PC Hero (only visible on desktop) ===== -->
+  <div class="hidden md:flex h-full">
+    
+    <!-- Left Side (Text on black bg) -->
+    <div class="flex-1 bg-black text-white flex items-center justify-center p-8">
+      <div class="max-w-lg text-left">
+        <h2 class="text-6xl font-bold mb-4">Welcome to Divine Mercy Church Kalher</h2>
+        <p class="text-xl mb-6">Join us in prayer, reflection, and hymns of faith.</p>
+        <a href="/templates/Novena.html" 
+           class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition">
+           Join the Novena
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Side (Image) -->
+    <div class="flex-1 bg-black">
+      <img src="https://i.pinimg.com/736x/f7/35/0e/f7350e479b077a0385852e85c27b2d97.jpg" 
+           alt="Church" 
+           class="w-600 h-full object-cover bg[black]">
+    </div>
+
+  </div>
+</section>
+
+  <!-- ================================================ -->
+   <footer class="bg-[brown] text-white text-center py-4">
+    <p class="text-sm">© 2025 Divine Mercy Church, Kalher, Bhiwandi. All Rights Reserved.</p>
+  </footer>
+
+
+
+  <script>
+    // Mobile Menu Toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
