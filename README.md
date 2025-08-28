@@ -1,1 +1,0 @@
-# Way_of_the_cross_2025
