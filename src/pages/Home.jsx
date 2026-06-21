@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import heroImg from '../assets/heroimg2.jpeg';
+import secondSectionImg from '../assets/2ndsection.jpeg';
 import { albumsData } from '../data/albumsData';
 
 const Home = () => {
@@ -44,8 +45,8 @@ const Home = () => {
               </div>
               <div className="lg:w-1/2 w-full">
                 <img 
-                  src="/images/Mother mary.webp" 
-                  alt="Church Interior" 
+                  src={secondSectionImg} 
+                  alt="Church Event" 
                   className="w-full h-80 object-cover rounded-2xl shadow-md"
                 />
               </div>

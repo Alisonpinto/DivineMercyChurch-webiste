@@ -32,8 +32,11 @@ export const albumsData = [
   {
     "id": 3,
     "title": "Feast of Divine Mercy",
-    "cover": "",
-    "photos": []
+    "cover": "/albums/DMCfeast/IMG-20260412-WA0036.jpg.jpeg",
+    "photos": [
+      "/albums/DMCfeast/IMG-20260412-WA0036.jpg.jpeg",
+      "/albums/DMCfeast/IMG-20260412-WA0038.jpg.jpeg"
+    ]
   },
   {
     "id": 4,
