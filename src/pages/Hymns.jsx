@@ -3,9 +3,25 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { hymnsData } from '../data/hymns';
 
+// Liturgical categories list (easy to maintain and extend)
+const CATEGORIES = [
+  'Adoration',
+  'Entrance',
+  'Penitential',
+  'Gloria',
+  'Responsorial Psalm',
+  'Hallelujah',
+  'Offertory',
+  'Sanctus',
+  'Mystery of Faith',
+  'Lamb of God',
+  'Communion',
+  'Recessional'
+];
+
 const Hymns = () => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedLetter, setSelectedLetter] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState('Entrance');
   const [bookmarks, setBookmarks] = useState(() => {
     const saved = localStorage.getItem('hymnBookmarks');
     return saved ? JSON.parse(saved) : [];
@@ -16,8 +32,6 @@ const Hymns = () => {
   const [readingMode, setReadingMode] = useState('normal'); // 'normal' | 'cream'
   const [toastMessage, setToastMessage] = useState('');
   const [showScrollTop, setShowScrollTop] = useState(false);
-
-  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
   // Scroll to top listener
   useEffect(() => {
@@ -77,14 +91,22 @@ const Hymns = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // Perform filtering using useMemo
   const filteredHymns = useMemo(() => {
     return hymnsData.filter(hymn => {
-      const matchSearch = hymn.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          hymn.lyrics.toLowerCase().includes(searchQuery.toLowerCase());
-      const matchLetter = selectedLetter ? hymn.title.toUpperCase().startsWith(selectedLetter) : true;
-      return matchSearch && matchLetter;
+      const query = searchQuery === '!favorites' ? '' : searchQuery;
+      const matchSearch = hymn.title.toLowerCase().includes(query.toLowerCase()) || 
+                          hymn.lyrics.toLowerCase().includes(query.toLowerCase());
+      const matchCategory = hymn.category === selectedCategory;
+      const matchFavorites = searchQuery === '!favorites' ? bookmarks.includes(hymn.id) : true;
+      return matchSearch && matchCategory && matchFavorites;
     });
-  }, [searchQuery, selectedLetter]);
+  }, [searchQuery, selectedCategory, bookmarks]);
+
+  // Check if a category has hymns at all, regardless of search query
+  const categoryHasHymns = useMemo(() => {
+    return hymnsData.some(hymn => hymn.category === selectedCategory);
+  }, [selectedCategory]);
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
@@ -94,7 +116,7 @@ const Hymns = () => {
         {/* Header Section */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-3">Church Hymns</h1>
-          <p className="text-gray-600 text-lg">Browse, search and copy hymns instantly.</p>
+          <p className="text-gray-600 text-lg">Browse and search hymns organized by liturgical order.</p>
         </div>
 
         {/* Search Bar */}
@@ -104,31 +126,37 @@ const Hymns = () => {
           </div>
           <input 
             type="text" 
-            placeholder="Search by title or lyrics (e.g., 'mary', 'holy')"
-            value={searchQuery}
+            placeholder={`Search within "${selectedCategory}" category...`}
+            value={searchQuery === '!favorites' ? '' : searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full pl-12 pr-4 py-4 rounded-2xl border-none shadow-sm text-lg focus:ring-2 focus:ring-blue-500 bg-white"
           />
         </div>
 
-        {/* Alphabet Filter */}
+        {/* Categories Horizontal Slider */}
         <div className="overflow-x-auto pb-4 mb-6 hide-scrollbar">
-          <div className="flex space-x-2 min-w-max">
-            <button 
-              onClick={() => setSelectedLetter(null)}
-              className={`px-4 py-2 rounded-xl font-bold transition-colors ${!selectedLetter ? 'bg-gray-800 text-white' : 'bg-white text-gray-600 hover:bg-gray-100'}`}
-            >
-              ALL
-            </button>
-            {alphabet.map(letter => (
-              <button 
-                key={letter}
-                onClick={() => setSelectedLetter(letter)}
-                className={`w-10 h-10 flex items-center justify-center rounded-xl font-bold transition-colors ${selectedLetter === letter ? 'bg-gray-800 text-white' : 'bg-white text-gray-600 hover:bg-gray-100 shadow-sm'}`}
-              >
-                {letter}
-              </button>
-            ))}
+          <div className="flex space-x-2.5 min-w-max py-1 px-1">
+            {CATEGORIES.map(category => {
+              const isActive = selectedCategory === category;
+              return (
+                <button 
+                  key={category}
+                  onClick={() => {
+                    setSelectedCategory(category);
+                    if (searchQuery === '!favorites') {
+                      setSearchQuery('');
+                    }
+                  }}
+                  className={`px-5 py-2.5 rounded-full font-bold text-sm transition-all duration-200 border shadow-sm ${
+                    isActive 
+                      ? 'bg-gray-800 text-white border-gray-800 shadow-md scale-[1.02]' 
+                      : 'bg-white text-gray-600 hover:bg-gray-100 hover:text-gray-900 border-gray-200 hover:-translate-y-0.5'
+                  }`}
+                >
+                  {category}
+                </button>
+              );
+            })}
           </div>
         </div>
 
@@ -140,7 +168,7 @@ const Hymns = () => {
                  if (searchQuery === '!favorites') setSearchQuery('');
                  else setSearchQuery('!favorites');
                }}
-               className="flex items-center space-x-2 text-sm font-semibold text-red-600 bg-red-50 px-4 py-2 rounded-full"
+               className="flex items-center space-x-2 text-sm font-semibold text-red-600 bg-red-50 px-4 py-2 rounded-full hover:bg-red-100 transition-colors"
              >
                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd"></path></svg>
                <span>{searchQuery === '!favorites' ? 'Show All' : 'Show Favorites'}</span>
@@ -148,14 +176,22 @@ const Hymns = () => {
            </div>
         )}
 
-        {/* Hymns List */}
-        <div className="grid gap-4">
-          {filteredHymns.length > 0 ? (
-            (searchQuery === '!favorites' ? filteredHymns.filter(h => bookmarks.includes(h.id)) : filteredHymns).map(hymn => (
+        {/* Hymns List with key to trigger animation */}
+        <div key={selectedCategory} className="grid gap-4 animate-fade-in-up">
+          {!categoryHasHymns ? (
+            <div className="text-center py-12 text-gray-500 bg-white rounded-2xl border border-gray-100 p-8 shadow-sm">
+              <svg className="w-16 h-16 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+              <p className="text-xl font-bold text-gray-700">No hymns available in this category.</p>
+              <p className="text-sm text-gray-400 mt-2">New hymns will be added to this liturgical category soon.</p>
+            </div>
+          ) : filteredHymns.length > 0 ? (
+            filteredHymns.map(hymn => (
               <div 
                 key={hymn.id} 
                 onClick={() => setSelectedHymn(hymn)}
-                className="bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+                className="bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer border border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:-translate-y-0.5"
               >
                 <div className="flex-1">
                   <div className="flex items-center space-x-2 mb-1">
@@ -165,7 +201,7 @@ const Hymns = () => {
                     </button>
                   </div>
                   <p className="text-gray-500 line-clamp-2 leading-relaxed">
-                    {hymn.lyrics.split('\\n').slice(0, 2).join(' ')}...
+                    {hymn.lyrics.split(/\r?\n|\\n/).slice(0, 2).join(' ')}...
                   </p>
                 </div>
                 <div className="flex space-x-3 items-center">
@@ -186,10 +222,10 @@ const Hymns = () => {
               </div>
             ))
           ) : (
-            <div className="text-center py-12 text-gray-500">
-              <svg className="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
-              <p className="text-xl">No hymns found.</p>
-              <p className="text-sm mt-2">Try adjusting your search or filter.</p>
+            <div className="text-center py-12 text-gray-500 bg-white rounded-2xl border border-gray-100 p-8 shadow-sm">
+              <svg className="w-16 h-16 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+              <p className="text-xl font-bold text-gray-700">No hymns found.</p>
+              <p className="text-sm text-gray-400 mt-2">Try adjusting your search query within the "{selectedCategory}" category.</p>
             </div>
           )}
         </div>
@@ -199,7 +235,7 @@ const Hymns = () => {
 
       {/* Hymn Detail Modal */}
       {selectedHymn && (
-        <div className="fixed inset-0 z-[60] flex flex-col bg-white overflow-hidden shadow-2xl">
+        <div className="fixed inset-0 z-[60] flex flex-col bg-white overflow-hidden shadow-2xl animate-fade-in-up">
           {/* Modal Header */}
           <div className="flex items-center justify-between p-4 border-b border-gray-100 bg-white shadow-sm z-10">
             <button onClick={() => setSelectedHymn(null)} className="p-2 rounded-full hover:bg-gray-100 text-gray-600 transition-colors">
@@ -272,7 +308,6 @@ const Hymns = () => {
         </div>
       )}
 
-      {/* Adding custom CSS for hide-scrollbar in index.css is recommended, but doing inline class style here as utility */}
       <style>{`
         .hide-scrollbar::-webkit-scrollbar {
           display: none;
@@ -284,9 +319,16 @@ const Hymns = () => {
         .animate-fade-in-down {
           animation: fadeInDown 0.3s ease-out forwards;
         }
+        .animate-fade-in-up {
+          animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
         @keyframes fadeInDown {
           from { opacity: 0; transform: translate(-50%, -20px); }
           to { opacity: 1; transform: translate(-50%, 0); }
+        }
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(15px); }
+          to { opacity: 1; transform: translateY(0); }
         }
       `}</style>
     </div>
