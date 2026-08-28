@@ -119,7 +119,7 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Mass Timings</h2>
             <div className="w-20 h-px bg-gray-300 mx-auto mb-16"></div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center max-w-3xl mx-auto border-t border-b border-gray-200 py-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto border-t border-b border-gray-200 py-12">
               <div>
                 <h3 className="text-gray-500 text-sm uppercase tracking-widest font-semibold mb-4">Sundays</h3>
                 <p className="text-3xl font-serif text-gray-900 mb-2">8:00 AM</p>
@@ -129,6 +129,11 @@ const Home = () => {
                 <h3 className="text-gray-500 text-sm uppercase tracking-widest font-semibold mb-4">Weekdays <span className="lowercase tracking-normal text-xs text-gray-400 font-medium">(Mon-Fri)</span></h3>
                 <p className="text-3xl font-serif text-gray-900 mb-2">6:50 AM</p>
                 <p className="text-sm text-gray-500 italic">Daily Morning Mass</p>
+              </div>
+              <div className="md:border-l border-gray-200 px-4">
+                <h3 className="text-gray-500 text-sm uppercase tracking-widest font-semibold mb-4">Fridays</h3>
+                <p className="text-3xl font-serif text-gray-900 mb-2">6:30 PM</p>
+                <p className="text-sm text-gray-500 italic">Evening Mass</p>
               </div>
             </div>
           </div>

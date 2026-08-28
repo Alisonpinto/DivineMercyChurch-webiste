@@ -18,7 +18,7 @@ const Novena = () => {
             <h1 className="text-white text-3xl md:text-5xl font-extrabold text-center leading-tight drop-shadow-lg">
               Nativity of the Blessed Virgin Mary <br />
               <span className="text-lg md:text-2xl font-light mt-4 block">
-                30th August – 7th September 2025
+                30th August - 7th September 2026
               </span>
             </h1>
           </div>
@@ -26,259 +26,192 @@ const Novena = () => {
 
         <section id="novena" className="py-16 px-4">
           <div className="max-w-5xl mx-auto grid gap-8">
-            
+
             <NovenaCard 
-              title={`Day 1 – 30th August 2025`}
-              subtitle={`St. Parish Family Cell \n
-            1st Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 1 - 30th August 2026`}
+              subtitle={`- \n 1st Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-    <p><strong>Hymn</strong></p>
-
-    <p><strong>Leader:</strong> In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</p>
-
-    <p><strong>All:</strong> Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, 
-      and against the enemy of the whole human race. Give me strength humbly to pray to thee. 
-      Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, 
-      which for the entire Christian world was a birth of joy, the hope and solace of its life. 
-      When thou wast born, O most holy Virgin then was the world made light. 
-      Happy is thy stock, holy thy root, and blessed thy fruit, 
-      for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, 
-      as a virgin to bear Thy God, as a virgin to bring Him forth, 
-      and after His birth to remain a virgin. 
-      Have mercy therefore upon me a sinner, and give me aid, O Lady, 
-      so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, 
-      illustrious from the stock of David, didst announce joy to the entire world, 
-      so may it fill me with true joy and cleanse me from every sin. 
-      Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity 
-      may put a cloak over all my sins. 
-      O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen.
-    </p>
-    <p><em>(Mention your request)</em></p>
-    <p>
-       1 Our Father... <br />
-       1 Hail Mary... <br />
-       1 Glory Be...
-    </p>
-    <p><strong>The Magnificat (Canticle of Mary)</strong></p>
-    <p><strong>All:</strong> My soul proclaims the greatness of the Lord, my spirit finds joy in God my savior; 
-      for he has looked upon His servant in her lowliness; all ages to come shall call me blessed. 
-      God who is mighty has done great things for me, holy is His name; His mercy is from age to age on those who fear Him. 
-      He has shown might with His arm; He has confused the proud in their inmost thoughts. 
-      He has deposed the mighty from their thrones and raised the lowly to high places. 
-      The hungry He has given every good thing, while the rich He has sent empty away. 
-      He has upheld Israel his servant, ever mindful of His mercy; Even as He promised our fathers, 
-      promised Abraham and His descendants forever. Amen.
-    </p>
-    <p><strong>Leader:</strong> Mary help of Christians.</p>
-    <p><strong>All:</strong> Pray for us!</p>
-  
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary's "Yes".</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, t oday we begin our nine-day preparation for the joyful Feast of the Nativity of the Blessed Virgin Mary. This year our celebration has a special significance as we also commemorate the eighth centenary of the death of St. Francis of Assisi. Throughout these days we shall walk with Mary allowing th is great disciple to lead us ever closer to CHRIST. Mathew 16: 21-27 invites C invites us to deny ourselves, take up our cross and follow the LORD. Mary lived this call perfectly when she surrendered herself completely to GOD 'S plan with her humble "Yes." Centuries later, Francis of Assisi responded to CHRIST 'S invitation by leaving behind wealth, ambition and worldly glory to rebuild the Church through a life of holiness. As we begin this novena, let us ask for the grace of generous hearts, ready to surrender to GOD 'S will without fear or hesitation. May our celebration of this N ovena strengthen us to become faithful disciples of CHRIST.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may courageously proclaim the Gospel, faithfully carry their daily cross, and continually renew the Church through lives of holiness and humble service, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority - that they may exercise their responsibilities with wisdom, integrity and compassion, promoting justice, peace and the dignity of every human person, we pray to the LORD.</li><li>3. Like Mary, who surrendered herself completely to GOD 'S will, we too may generously respond to GOD 'S call in our lives, trusting that HIS plans are always for our good and for the salvation of the world, we pray to the LORD.</li><li>4. Following the example of St. Francis of Assisi, we may hear CHRIST 'S call to rebuild His Church-not merely through buildings, but by renewing our hearts, serving the poor, and living the Gospel with simplicity and joy, we pray to the LORD.</li><li>5. That the sick may experience GOD 'S healing, the poor HIS providence, the lonely HIS comforting presence, the homeless HIS shelter, the unemployed meaningful work, we pray to the LORD.</li><li>6. Let us pray for peace in the world as also for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our FATHER... One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> : My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, H oly is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Mary help of C hrist ians.</p>
+                  <p><strong>All:</strong> Pray for us!</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 2 – 31st August 2025`}
-              subtitle={`St.Dominic Savio Community \n
-            2nd Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 2 - Monday 31`}
+              subtitle={`st \n 2nd Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-    <p><strong>Hymn</strong></p>
-
-    <p><strong>Leader:</strong> In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</p>
-
-    <p><strong>All:</strong> Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, 
-      and against the enemy of the whole human race. Give me strength humbly to pray to thee. 
-      Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, 
-      which for the entire Christian world was a birth of joy, the hope and solace of its life. 
-      When thou wast born, O most holy Virgin then was the world made light. 
-      Happy is thy stock, holy thy root, and blessed thy fruit, 
-      for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, 
-      as a virgin to bear Thy God, as a virgin to bring Him forth, 
-      and after His birth to remain a virgin. 
-      Have mercy therefore upon me a sinner, and give me aid, O Lady, 
-      so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, 
-      illustrious from the stock of David, didst announce joy to the entire world, 
-      so may it fill me with true joy and cleanse me from every sin. 
-      Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity 
-      may put a cloak over all my sins. 
-      O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen.
-    </p>
-    <p><em>(Mention your request)</em></p>
-    <p>
-       1 Our Father... <br />
-       1 Hail Mary... <br />
-       1 Glory Be...
-    </p>
-    <p><strong>The Magnificat (Canticle of Mary)</strong></p>
-    <p><strong>All:</strong> Remember, O most gracious Virgin Mary, that never was it known that anyone 
-        who fled to your protection, implored your help or sought your intercession, was left unaided. 
-        Inspired by this confidence, I fly unto you, O Virgin of virgins, my Mother. 
-        To you I come, before you I stand, sinful and sorrowful. 
-        O Mother of the Word incarnate, despise not my petitions, but, in your mercy, hear and answer me. Amen.
-    </p>
-    <p><strong>Leader:</strong> Mary help of Christians.</p>
-    <p><strong>All:</strong> Pray for us!</p>
-  
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary's humility.</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, a s we continue our Novena in preparation for the Feast of the Nativity of the Blessed Virgin Mary, Luke 4 : 16-30 invites us to reflect on the beauty of humility and the freedom that comes from trusting completely in GOD. In the synagogue at Nazareth, JESUS proclaims that HE has come to bring Good News to the poor, liberty to captives, and hope to the oppressed. Yet the very people who knew HIM best fail to accept HIM because pride blinds their hearts. Mary, on the other hand, calls herself the humble servant of the LORD and sings, " HE has looked upon the lowliness of HIS handmaid." St. Francis, though born into wealth, freely embraced Lady Poverty, discovering that true riches are found in CHRIST alone. As we pray this Novena, let us pray for humble hearts, open to GOD 'S word and ready to place HIM above worldly success, possessions, and pride.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may proclaim the Gospel with humility and courage, never seeking honour for themselves but always leading GOD 'S people to CHRIST, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority that they may govern with humility, integrity and compassion, giving special attention to the poor, those whose voices are seldom heard, we pray to the LORD.</li><li>3. That, following the example of Mary, the humble servant of the LORD, we may recognise every blessing as GOD 'S gift and learn to serve one another with simplicity, gratitude and love, we pray to the LORD.</li><li>4. That, inspired by St. Francis' joyful embrace of Lady Poverty, we may use the goods of this world responsibly, share generously with those in need, and discover that our greatest treasure is CHRIST Himself, we pray to the LORD.</li><li>5. That the poor may find dignity, the unemployed meaningful work, the sick healing, the lonely companionship, and those burdened by anxiety renewed hope through the loving care of GOD 'S people, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER... One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Mary help of C hrist ians.</p>
+                  <p><strong>All:</strong> Pray for us!</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 3 – 1st September 2025`}
-              subtitle={`St. Gonsalo Garcia Community \n
-        3rd Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 3 - Tuesday 1 st September 2026`}
+              subtitle={`ST. THOMAS \n 3rd Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-        <p><strong>Hymn</strong></p>
-
-        <p><strong>Leader:</strong> In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</p>
-
-        <p><strong>All:</strong> Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen</p>
-
-        <p><em>(Mention your request)</em></p>
-        <p>1 Our Father... <br />1 Hail Mary... <br />1 Glory Be...</p>
-
-        <p><strong>Hail Holy Queen (Salve Regina)</strong></p>
-        <p><strong>All:</strong> Hail, holy Queen/ Mother of Mercy, Our life/ our sweetness and our hope. / To thee do we cry, poor banished children of Eve/ To thee do we send up our sighs,/ Mourning and weeping in this valley of tears/ Turn then, most gracious Advocate/ thine eyes of mercy/toward us, And after this our exile/ show unto us the blessed fruit of thy womb, Jesus/ O clement, O loving/O sweet Virgin Mary.</p>
-        <p><strong>Leader:</strong> Pray for us, O Holy Mother of God.</p>
-        <p><strong>All:</strong> That we may be made worthy of the promises of Christ. Amen!</p>
-    
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary, Mother of JESUS.</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, a s we continue our Novena in honour of the Nativity of the Blessed Virgin Mary, Church invites us to experience the love of CHRIST that gathers people into one family. In Luke 4 : 31-37, JESUS speaks with divine authority and frees a man from the power of evil, revealing that GOD 'S Kingdom is a kingdom of healing, unity and new life. JESUS welcomed Mary into the world as HIS loving Mother. At the foot of the Cross, JESUS entrusted her to the beloved disciple, making her the Mother of all HIS followers. St. Francis, inspired by the Gospel, saw every person as a brother or sister and every creature as a gift from the same loving FATHER. As we p ut forth our voices in this Novena, let us pray that our families, our parish and our society may grow in love, reconciliation and fraternity. May Mary, our Mother, lead us ever closer to CHRIST, who alone can free us from all that divides us.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may faithfully proclaim CHRIST 'S liberating Gospel, strengthen the unity of the Church, and lead GOD 'S people with love, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority that they may work to overcome hatred, violence and injustice, promoting peace, harmony and respect for the dignity of every person, we pray to the LORD.</li><li>3. That through the loving intercession of Mary, our families may grow in faith, mutual forgiveness and unity, and that all mothers may reflect Mary's tender care in their homes, we pray to the LORD.</li><li>4. Through the intercession of St Francis, who called everyone his brother or sister, we may overcome prejudice, selfishness and indifference, becoming instruments of fraternity and compassionate service to all, we pray to the LORD.</li><li>5. That those who feel excluded from society may experience GOD 'S healing love through our care and concern, and that our departed brothers and sisters may rejoice forever in GOD 'S heavenly family, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER... One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Pray for us, O Holy Mother of GOD.</p>
+                  <p><strong>All:</strong> That we may be made worthy of the promises of CHRIST. Amen!</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 4 – 2nd September 2025`}
-              subtitle={`St. Thomas Community \n
-        4th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 4 - Wednesday 2 nd September 2026`}
+              subtitle={`LEGION OF MARY \n 4th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-        <p><strong>Hymn</strong></p>
-        <p><strong>Leader:</strong> In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</p>
-        <p><strong>All:</strong> Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen</p>
-        <p><em>(Mention your request)</em></p>
-        <p>1 Our Father... <br />1 Hail Mary... <br />1 Glory Be...</p>
-
-        <p><strong>Prayer to Mother Mary for Protection</strong></p>
-        <p><strong>All:</strong> : We fly to your protection, most holy Mother of God; please listen to our petitions and needs, and deliver us from all dangers, ever glorious and blessed Virgin Mary. Mary, our model and mother, by your obedience and patience you have taught us how to be true children of God. Please help us by your powerful assistance to overcome all our weaknesses, and to fulfill perfectly our tasks in life. By your compassionate aid may we ever stand in spirit with you beneath the cross of Christ so that we may also rejoice with you in your divine Son's triumphant victory over sin and death. In your maternal kindness help us to be faithful to prayers in the company of God's Church as you were one with the Apostles in the upper room as you waited for the promised Spirit of Pentecost. With your gracious assistance may we be near you in the glory of Christ's kingdom come to sing with you and all the faithful the eternal praise of God. Amen.</p>
-        <p><strong>Leader:</strong> O Mary, conceived without sin,</p>
-        <p><strong>All:</strong> Pray for us who have recourse to you.</p>
-    
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary, model disciple.</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, a s we continue our Novena in honour of the Nativity of the Blessed Virgin Mary, Luke 4 : 38-44 presents JESUS as the compassionate healer WHO restores the sick, comforts the suffering and proclaims the Good News of GOD 'S Kingdom. HIS mission was not confined to one place or one group of people; HE came to bring GOD 'S saving love to all. Mary is the first and greatest disciple of JESUS. She listened attentively to GOD 'S word, treasured it in her heart, and remained faithful to her SON even at the foot of the Cross. St. Francis, inspired by the same Gospel, sought to follow CHRIST with simplicity, humility and unwavering fidelity, making the Gospel the rule of his life. As we gather to pray this N ovena today, let us ask the LORD for the grace not only to admire CHRIST but to follow HIM faithfully in our daily lives. May Mary teach us that true discipleship is expressed in loving service, steadfast faith and joyful obedience.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may faithfully proclaim the Gospel with conviction, care tenderly for GOD 'S people, and inspire others by the witness of holy lives, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority that they may exercise their authority with wisdom, integrity and compassion, always placing the welfare of the people above personal interest, we pray to the LORD.</li><li>3. That, following the example of Mary, the faithful disciple who treasured GOD 'S word and remained steadfast beneath the Cross, we may remain faithful to CHRIST in times of both joy and trial, we pray to the LORD.</li><li>4. That, inspired by St. Francis' wholehearted love for the Gospel, we may become true disciples of CHRIST through prayer, simplicity of life, generous service to the poor and joyful witness to the Good News, we pray to the LORD.</li><li>5. That CHRIST, the Divine Healer, may bring comfort to the sick, strength to caregivers, hope to the discouraged, peace to troubled families, and eternal rest to the faithful departed, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER... One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> O Mary, conceived without sin,</p>
+                  <p><strong>All:</strong> Pray for us who have recourse to you.</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 5 – 3rd September 2025`}
-              subtitle={`St. Francis Xavier Community \n
-        5th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 5 - Thursday 3 rd September 2026`}
+              subtitle={`ST. MOTHER THERESA \n 5th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-        <p><strong>Hymn</strong></p>
-        <p><strong>Leader:</strong> In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</p>
-        <p><strong>All:</strong> Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen</p>
-        <p><em>(Mention your request)</em></p>
-        <p>1 Our Father... <br />1 Hail Mary... <br />1 Glory Be...</p>
-
-        <p><strong>Act of Consecration to the Immaculate Heart of Mary</strong></p>
-        <p><strong>All:</strong> O most pure heart of Mary, full of goodness, show your love towards us. Let the flame of your heart, O Mary, descend on all people. We love you immensely. Impress on our hearts true love so that we may long for you. O Mary, gentle and humble of heart, remember us when we sin. You know that all people sin. Grant that through your most pure and motherly heart, we may be healed from every spiritual sickness. Grant that we may always experience the goodness of your motherly heart, and that through the flame of your heart we may be converted. Amen</p>
-        <p><strong>Leader:</strong> Mary, the Mother of God,</p>
-        <p><strong>All:</strong> Pray for us!</p>
-    
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary, Star of Evangelization.</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, t oday on the fifth day of our novena, we reflect on our call to become joyful disciples and courageous witnesses of JESUS CHRIST. Today we honour Mary as the Star of Evangelization. Having welcomed CHRIST into her own life, she immediately carried HIM to others. Her visit to Elizabeth was the first missionary journey of the New Testament, bringing the presence and joy of the Saviour into another home. Throughout her life, Mary always led people to JESUS and encouraged them to place their trust in HIM. We also remember St. Francis of Assisi, the joyful missionary disciple who proclaimed the Gospel not only by his words but also by the witness of his life. His love for CHRIST led him beyond the boundaries of comfort and security, inspiring countless people to rediscover the joy of following the LORD. In Luke 5: 1-11, JESUS tells Simon Peter, "From now on you will be catching people." Like Peter, Mary and Francis responded generously to GOD 'S call. May we become faithful missionary disciples, bringing CHRIST to our families, our parish and our society.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may continually respond to CHRIST 'S invitation to "put out into the deep." and draw many people into the communion of the Church, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority that they may not seek personal honour but the common good, governing with integrity, justice and a sincere concern for the poor, we pray to the LORD.</li><li>3. That Mary, Star of Evangelization, may inspire us to carry CHRIST into our homes, our workplaces and our communities with the same joy and generosity with which she visited Elizabeth, we pray to the LORD.</li><li>4. With assistance from St Francis, we may become missionary disciples whose simplicity, humility and joyful witness proclaim the Gospel more powerfully than words alone, we pray to the LORD.</li><li>5. For those who fight for justice: that they may draw strength and inspiration from Mary to continue their mission of bringing justice to those falsely implicated, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER... One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> : My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Mary, the Mother of GOD,</p>
+                  <p><strong>All:</strong> Pray for us!</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 6 – 4th September 2025`}
-              subtitle={`St. Joseph Community \n
-        6th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 6 - Friday 4th September 2026`}
+              subtitle={`SACRED HEART \n 6th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-        <p><strong>Hymn</strong></p>
-        <p><strong>Leader:</strong> In the name of the Father... Amen.</p>
-        <p><strong>All:</strong> Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen.</p>
-        <p><em>(Mention your request)</em></p>
-        <p>1 Our Father... <br />1 Hail Mary... <br />1 Glory Be...</p>
-
-        <p><strong>Prayer to Mother Mary for Family</strong></p>
-        <p><strong>All:</strong>O Mary, loving Mother of Jesus, and our Mother, pray to Jesus for our family, for all the families of the world, to guard the cradle of the newborn, the schools of the young, and their vocations. Blessed Saint Joseph, holy guardian of Jesus and Mary, assist us by your prayers in all the necessities of life. Ask of Jesus that special grace which He granted to you, to watch over our home at the pillow of the sick and dying, so that with Mary and you, heaven may find our family unbroken in the Sacred Heart of Jesus. Amen.</p>
-        <p><strong>Leader:</strong> Mary, our refuge and strength,</p>
-        <p><strong>All:</strong> Pray for us!</p>
-    
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary at the Foot of the Cross.</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, a s we continue our Novena in honour of the Nativity of the Blessed Virgin Mary, Church invites us to discover the deeper meaning of C hrist ian discipleship. In Luke 5: 33-39, JESUS speaks of the bridegroom, new wine and new wineskins, reminding us that HIS coming brings a new way of life-a life transformed by HIS love. Mary lived this new life with unwavering fidelity. She remained beside her SON at the foot of the Cross, trusting in GOD 'S plan even in the darkest hour. St. Francis, whose heart was so deeply united with the Crucified LORD, received the sacred stigmata as a sign of his profound conformity to CHRIST. Neither Mary nor Francis sought suffering; both embraced GOD 'S will with love. In unison in this Novena, let us pray for the grace to remain faithful in times of trial, to carry our crosses with hope, and to discover that the love of CHRIST is stronger than every suffering.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may faithfully proclaim the mystery of CHRIST 'S Cross and Resurrection, encouraging GOD 'S people to persevere with hope in times of trial, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority that they may work tirelessly to relieve the suffering of those affected by war, poverty, natural disasters and injustice, and promote peace, we pray to the LORD.</li><li>3. That, through the loving intercession of Mary, who remained faithful beneath the Cross, we may never lose hope in times of suffering but continue to trust in GOD 'S loving providence, we pray to the LORD.</li><li>4. That, following the example of St. Francis, whose life was conformed to the Crucified CHRIST, we may accept life's trials with courage and become witnesses of hope to those who are discouraged, we pray to the LORD.</li><li>5. For migrants and refugees: that they may find hope and courage and not despair in tough situations, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER... One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Mary, our refuge and strength,</p>
+                  <p><strong>All:</strong> Pray for us!</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 7 – 5th September 2025`}
-              subtitle={`Sacred Heart Community \n
-        7th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 7 - Saturday 5th September 2026`}
+              subtitle={`ST. DOMINIC SAVIO \n 7th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-        <p><strong>Hymn</strong></p>
-        <p><strong>Leader:</strong> In the name of the Father... Amen.</p>
-        <p><strong>All:</strong>Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen</p>
-        <p><em>(Mention your request)</em></p>
-        <p>1 Our Father... <br />1 Hail Mary... <br />1 Glory Be...</p>
-
-        <p><strong>Prayer for Healing to Our Lady of the Miraculous Medal</strong></p>
-        <p><strong>All:</strong>Mary Immaculate, you have given yourself to us as Our Lady of the Miraculous Medal. You have asked us to pray with confidence, and we will receive great graces. We know your compassion, because you saw your Son suffer and die for us. In your union with his suffering you became the mother of us all. Mary, my mother teach me to understand my sufferings as you do and to endure it in union with the suffering of Jesus. In your motherly love, calm my fears and increase my trust in God's loving care. According to God's plan, obtain for me the healing I need. Intercede with your Son that I may have the strength I need to work for God's glory and the salvation of the World. Amen.</p>
-        <p><strong>Leader:</strong> Mary, health of the sick,</p>
-        <p><strong>All:</strong> Pray for us!</p>
-    
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary, Queen of Peace.  -</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, o n this seventh day of our novena in honour of the Nativity of the Blessed Virgin Mary, we gather around the altar to thank GOD for the gift of Mary, whom the Church honours as the Queen of Peace. She brought into the world JESUS CHRIST, the Prince of Peace, whose Kingdom is founded on love, justice and reconciliation. Today we also reflect on the life of St. Francis of Assisi, the humble messenger of peace. Through his words, his example and his courageous encounter with the Sultan during the Crusades, Francis showed that lasting peace is born not from violence but from dialogue, respect and love. In Mathew 25: 31-46, JESUS teaches that we encounter HIM in the hungry, the thirsty, the stranger, the sick and the imprisoned. Every act of compassion becomes an act of peace, for whenever we restore the dignity of another person, we build GOD 'S Kingdom. As we put forth our prayers in this Novena, let us ask Mary to help us become instruments of CHRIST 'S peace in our families, our communities and our world.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may proclaim CHRIST, the Prince of Peace, through lives of charity, reconciliation and humble service to the least of our brothers and sisters, we pray to the LORD.</li><li>2. That the leaders of nations, especially those affected by war, violence and unrest, may be guided by wisdom and compassion, choosing dialogue over conflict, justice over oppression, and peace over hatred, we pray to the LORD.</li><li>3. That Mary, Queen of Peace, who brought the Prince of Peace into the world, may help our families become places of forgiveness, mutual respect and loving unity, we pray to the LORD.</li><li>4. Through the intercession of St. Francis, we may become instruments of GOD 'S peace, bringing reconciliation where there is division, hope where there is despair, and love where there is hatred, we pray to the LORD.</li><li>5. That CHRIST, whom we encounter in the hungry, the sick, the lonely, the refugees, the elderly and all who suffer, may strengthen them with His loving presence, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER... One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Mary, health of the sick,</p>
+                  <p><strong>All:</strong> Pray for us!</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 8 – 6th September 2025`}
-              subtitle={`Youth Community \n
-        8th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 8 - S unday 6 th September 2026`}
+              subtitle={`ST FRANCIS XAVIER \n 8th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-        <p><strong>Hymn</strong></p>
-        <p><strong>Leader:</strong> In the name of the Father... Amen.</p>
-        <p><strong>All:</strong>Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen</p>
-        <p><em>(Mention your request)</em></p>
-        <p>1 Our Father... <br />1 Hail Mary... <br />1 Glory Be...</p>
-
-        <p><strong>A Prayer to Mother Mary in time of trouble</strong></p>
-        <p><strong>All:</strong>Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen</p>
-        <p><strong>Leader:</strong> Mary Queen of heaven,</p>
-        <p><strong>All:</strong> Pray for us!</p>
-    
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary, Woman of Praise.</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, t oday on this eighth day of our novena in honour of the Nativity of the Blessed Virgin Mary, let us thank GOD for giving us Mary, the humble woman whose whole life became a hymn of praise to the LORD. In her Magnificat she proclaimed GOD 'S greatness, rejoicing not in her own achievements but in HIS mercy and faithfulness. Today we also remember St. Francis of Assisi, whose heart overflowed with gratitude for GOD 'S presence in all creation. Through his beautiful Canticle of Brother Sun, he invited the whole universe-sun and moon, wind and water, earth and fire-to join in praising the Creator. In Mathew 18: 15-20, JESUS reminds us that C hrist ian life is lived in communion. HE calls us to seek reconciliation, to preserve unity, and to pray together in HIS name. A community united in love becomes a community that truly praises GOD. As we unite all our prayers in this Novena, let us ask Mary to teach us grateful hearts, joyful lips, and lives that glorify GOD through praise, reconciliation and loving service.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may be living witnesses of joyful faith and fostering unity for the faithful to see the presence of GOD, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority that they may recognise the dignity of every human person, promote dialogue and reconciliation and protect the gifts of creation, we pray to the LORD.</li><li>3. That Mary, whose Magnificat proclaimed the greatness of the LORD, may teach us to live with humble and grateful hearts, praising GOD not only with our lips but also by lives of faithful service, we pray to the LORD.</li><li>4. That inspired by St. Francis of Assisi, who recognised every creature as a reflection of GOD 'S goodness, we may care responsibly for our common home and cherish the beauty of creation, we pray to the LORD.</li><li>5. That those burdened by illness, loneliness, poverty, family conflicts or discouragement may experience GOD 'S comforting presence through the kindness and support of those around them, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER. One Hail Mary. a Glory Be.</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Mary Queen of heaven,</p>
+                  <p><strong>All:</strong> Pray for us!</p>
                 </>
               }
             />
 
             <NovenaCard 
-              title={`Day 9 – 7th September 2025`}
-              subtitle={`St. Mother Teresa Community \n
-        9th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
+              title={`Day 9 - Monday 7 th September 2026`}
+              subtitle={`PARISH FAMILY CELL \n 9th Day of the Novena to the Nativity of the Blessed Virgin Mary`}
               content={
                 <>
-                  
-        <p><strong>Hymn</strong></p>
-        <p><strong>Leader:</strong> In the name of the Father... Amen.</p>
-        <p><strong>All:</strong>: Vouchsafe that I may praise thee, O sacred Virgin; give me strength against thine enemies, and against the enemy of the whole human race. Give me strength humbly to pray to thee. Give me strength to praise thee in prayer with all my powers, through the merits of thy most sacred nativity, which for the entire Christian world was a birth of joy, the hope and solace of its life. When thou wast born, O most holy Virgin then was the world made light. Happy is thy stock, holy thy root, and blessed thy fruit, for thou alone as a virgin, filled with the Holy Spirit, didst merit to conceive thy God, as a virgin to bear Thy God, as a virgin to bring Him forth, and after His birth to remain a virgin. Have mercy therefore upon me a sinner, and give me aid, O Lady, so that just as thy nativity, glorious from the seed of Abraham, sprung from the tribe of Judah, illustrious from the stock of David, didst announce joy to the entire world, so may it fill me with true joy and cleanse me from every sin. Pray for me, O Virgin most prudent, that the gladsome joys of thy most helpful nativity may put a cloak over all my sins. O holy Mother of God, flowering as the lily, pray to thy sweet Son for me, a wretched sinner. Amen</p>
-        <p><em>(Mention your request)</em></p>
-        <p>1 Our Father... <br />1 Hail Mary... <br />1 Glory Be...</p>
-
-        <p><strong>A Prayer to the Blessed Virgin Our Lady of Mount Carmel</strong></p>
-        <p><strong>All:</strong>O most beautiful Flower of Mount Carmel, Fruitful Vine, Splendor of Heaven, Blessed Mother of the Son of God, Immaculate Virgin, assist me this my necessity. O Star of the Sea, help me and show me herein you are my Mother. O Holy Mary, Mother of God, Queen of Heaven and Earth, I humbly beseech you from the bottom of my heart, to succor me in this necessity; there are none that can withstand your power. O, show me herein you are my Mother, O Mary, conceived without sin, pray for us who have recourse to thee</p>
-        <p><strong>Leader:</strong> Mary our heavenly Intercessor,</p>
-        <p><strong>All:</strong> Pray for us!</p>
-    
+                  <p><strong>Hymn</strong></p>
+                  <p><strong>Leader:</strong> In the name of the FATHER, and of the SON, and of the HOLY SPIRIT. Amen</p>
+                  <p className='mt-4'><strong>Theme:</strong> Mary, Mother of the Church.</p>
+                  <p className='mt-4'><strong>Introduction:</strong> Dear brothers and sisters in CHRIST, t oday we gather for the ninth and final day of our novena in honour of the Nativity of the Blessed Virgin Mary. During these days we have reflected on Mary's virtues. As we prepare to celebrate Mary's birthday tomorrow, we thank GOD for giving her to us as our loving Mother and as the Mother of the Church. Today's theme invites us to contemplate Mary, who accompanied the early disciples in prayer and encouraged them to remain united in faith and hope. We also remember St. Francis of Assisi, whom GOD called to rebuild His Church-not by wealth or power, but by holiness, humility and joyful fidelity to the Gospel. In Luke 6:6-11, JESUS heals a man with a withered hand on the Sabbath, teaching us that love and mercy are always at the heart of GOD 'S law. A renewed Church is built whenever hearts are healed, lives are transformed and people are led back to GOD.</p>
+                  <p className='mt-4'><strong>Novena Prayer:</strong> GOD our heavenly FATHER / the day of our salvation dawned / when the Blessed Virgin / gave birth to your SON / CHRIST our LORD / who set us free from sin / and made us blessed. / As we celebrate her Nativity / and join now in constant prayer with her / we implore YOU / to heal the sick / to comfort the sorrowful / to pardon the sinners / to grant us our special petition... (Mention your request) Look mercifully upon us / and by the power of YOUR SPIRIT / make us channels of / compassion towards others / as we follow the example / of Mary, our Mother. / YOU deigned to do great things / for the Virgin Mary / and brought her body and soul / to the glory of heaven / fill the hearts of YOUR children / with the hope of CHRIST 'S glory. / Amen.</p>
+                  <p className='mt-4'><strong>Prayer of the Faithful</strong></p><p><em>Response:</em> LORD, hear our prayer.</p><ul className='mt-2 space-y-2'><li>1. For Pope Leo, Bishop Thomas, all Priests and Religious that they may continually renew the Church through holiness, faithful preaching of the Gospel and compassionate service, we pray to the LORD.</li><li>2. For the leaders of Governments and those in authority that they may exercise their responsibilities with wisdom, integrity and compassion, promoting justice, peace and the common good, we pray to the LORD.</li><li>3. That Mary, Mother of the Church, may deepen our love for CHRIST and His Church and help our families remain steadfast in faith, united in love, and generous in serving one another we pray to the LORD.</li><li>4. That following St. Francis of Assisi, we may strive to renew the Church through our own conversion, living lives of humility, simplicity, prayer and joyful fidelity to the Gospel, we pray to the LORD.</li><li>5. May our CHRIST ian communities become places of welcome, healing and hope for all who seek GOD 'S mercy, we pray to the LORD.</li><li>6. Let us pray for our personal needs, we pray to the LORD.</li></ul>
+                  <p className='mt-4'><em>(Pause for some time)</em></p>
+                  <p>One Our F ATHER. One Hail Mary... a Glory Be...</p>
+                  <p className='mt-4'><strong>The Magnificat (Canticle of Mary)</strong></p>
+                  <p><strong>All:</strong> My soul proclaims the greatness of the LORD, my spirit finds joy in GOD my savior; for HE has looked upon HIS servant in her lowliness; all ages to come shall call me blessed. GOD who is mighty has done great things for me, Holy is HIS name; HIS mercy is from age to age on those who fear HIM. HE has shown might with HIS arm; HE has confused the proud in their inmost thoughts. HE has deposed the mighty from their thrones and raised the lowly to high places. The hungry HE has given every good thing, while the rich HE has sent empty away. HE has upheld Israel HIS servant, ever mindful of HIS mercy; Even as HE promised our fathers, promised Abraham and HIS descendants forever. Amen.</p>
+                  <p className='mt-4'><strong>Leader:</strong> Mary our heavenly Intercessor,</p>
+                  <p><strong>All:</strong> Pray for us!</p>
                 </>
               }
             />
